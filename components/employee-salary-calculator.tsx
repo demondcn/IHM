@@ -70,7 +70,7 @@ export function EmployeeSalaryCalculator() {
       valorHora: 0,
     },
   })
-
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   function onEmployeeSubmit(data: EmployeeFormValues) {
     setActiveTab("hours")
   }
